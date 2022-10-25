@@ -15,6 +15,7 @@ public class basic_navigation {
     driver.get("https://amazon.com");
 
     System.out.println(driver.getTitle());
-
+    
   }
 }
+
