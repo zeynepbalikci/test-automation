@@ -3,6 +3,7 @@ package com.cybertek.tests.day1_basic_navigation;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class basic_navigation {
 
@@ -15,7 +16,7 @@ public class basic_navigation {
     driver.get("https://amazon.com");
 
     System.out.println(driver.getTitle());
-    
+
   }
 }
 
