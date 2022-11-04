@@ -13,13 +13,13 @@ public class VerifyURLnotchanged {
     WebDriver driver = WebDriverFactory.getDriver("chrome");
 
     // go to http://practice.cybertekschool.com/forgot_password links
-    driver.get("http://practice.cybertekschool.com/forgot_passwor");
+    driver.get("http://practice.cybertekschool.com/forgot_password");
 
     // save url to string variable
     String expectedUrl = driver.getCurrentUrl();
 
     // click on Retrieve password
-    WebElement retrievePasswordButton = driver.findElement(By.id("from_submit"));
+    WebElement retrievePasswordButton = driver.findElement(By.id("form_submit"));
 
     retrievePasswordButton.click();
 
