@@ -13,6 +13,5 @@ public class XpathTest {
 
     driver.get("http://practice.cybertekschool.com/multiple_buttons");
 
-
   }
 }
