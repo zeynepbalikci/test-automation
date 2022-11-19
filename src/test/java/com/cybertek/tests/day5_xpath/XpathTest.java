@@ -12,7 +12,7 @@ public class XpathTest {
     driver.manage().window().maximize();
 
     driver.get("http://practice.cybertekschool.com/multiple_buttons");
-    
+
 
   }
 }
